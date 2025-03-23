@@ -1,7 +1,7 @@
 """products, hms
 
 Revision ID: b86be08a2151
-Revises: 
+Revises:
 Create Date: 2025-03-23 16:55:37.217513
 
 """
