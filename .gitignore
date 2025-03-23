@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# custom
+*.csv
+*.ipynb
+
 # Distribution / packaging
 .Python
 build/
