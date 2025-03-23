@@ -10,7 +10,8 @@ def main():
 
     with Session() as session:
         with session.begin():
-            with open('app/data/kaupskra.csv', encoding='utf-8') as f:
+            # https://frs3o1zldvgn.objectstorage.eu-frankfurt-1.oci.customer-oci.com/n/frs3o1zldvgn/b/public_data_for_download/o/kaupskra.csv
+            with open('app/data/kaupskra.csv', encoding='utf-8') as f: 
                 reader = csv.DictReader(f)
 
                 for row in reader:
