@@ -32,4 +32,4 @@ repos:
   rev: 1.8.3
   hooks:
     - id: bandit
-      args: ['-ll']  # low severity and above
+      args: ['-lll', '-iii']  # low severity and above
