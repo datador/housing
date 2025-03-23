@@ -1,0 +1,9 @@
+skips: []  # no skipped tests
+exclude_dirs: ['app/migrations', 'tests']
+tests:
+  - B101  # assert used
+  - B102  # exec used
+  - B105  # hardcoded password
+  - B106  # hardcoded password function arg
+  - B307  # eval usage
+  - B602  # subprocess with shell=True
