@@ -15,10 +15,10 @@ from app.db import Model
 
 
 class HMSRaw(Model):
-    __tablename__ = "hms_raw"
+    __tablename__ = "hms"
     __table_args__ = (
         PrimaryKeyConstraint("faerslunumer", "fastnum"),
-        UniqueConstraint("faerslunumer", "fastnum", name="uq_raw_faerslunumer_fastnum"),
+        UniqueConstraint("faerslunumer", "fastnum", name="uq_faerslunumer_fastnum"),
         {"schema": "raw"},
     )
 
